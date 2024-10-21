@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: url(fleur\ violette.jpg)fixed center/cover;
+}
+  
+
+h1 {
+    color: #eff7eff5;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 6%; 
+    background-color: rgba(9, 9, 9, 0.523);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2{
+    color: #1f211ff5;
+    margin: 60px 0;
+    font-size: large;
+}
+
+p {
+    line-height: 1.6;
+    margin: 60px 0;
+}
+
+.image-fleur{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 60px 0;
+
+}    
+.rounded-container {
+    width: 300px; /* Largeur du conteneur */
+    height: 300px; /* Hauteur du conteneur */
+    border-radius: 50%; /* Rendre les coins arrondis */
+    overflow: hidden; /* Cacher le contenu qui dépasse */
+}  
+
+header{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    background-color: #191818ec;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    margin: 80px 0;
+}
+

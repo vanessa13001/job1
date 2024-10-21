@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulaire de contact</title>
+    <link rel="stylesheet" href="./contact.css">
+</head>
+<body>
+    <form action="traitement.php" method="post">
+        <label for="prénom">Prénom :</label>
+
+        <input type="text" id="prénom" name="prénom" required>
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom" required>
+
+        <label for="adressepostale">Adresse postale :</label>
+        <input type="adresse" id="adresse" name="postale" required>
+
+        <label for="civilité(e) *">Civilité(e) : *</label>
+        <select id="sujet" name="sujet">
+            <option value="selection de civilité:*">Selection de civilité(e) : *</option>
+            <option value="Monsieur">Monsieur *</option>
+            <option value="Madame">Madame *</option>
+
+        <label for="message">Message :</label>
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea>
+
+        <button type="submit">Envoyer</button>
+
+        <input type="checkbox" id="accepterPolitique" name="accepterPolitique" required>
+        <label for="accepterPolitiquedel'entreprise">En cochant cette case j'accepte les conditions d'utilisation et la politique de confidentialité de l'entreprise</label>
+        
+        <div class="politique-info">
+          </div>
+          
+    </form>
+</body>
+</html>
+

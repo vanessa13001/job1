@@ -1,0 +1,86 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background: rgba(105, 174, 253, 0.574);
+}
+
+.gilda-display-regular {
+    font-family: "Gilda Display", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+.lien{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    background-color: rgba(242, 235, 235, 0.69);
+    font-size: 15px;
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+}
+.rechercher{
+    margin-left: 400px;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 60px;
+    font-family: "Gilda Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 6%;
+}
+
+p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 6%;
+}
+
+.image-fleur{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 60px 0;
+
+}
+
+.coloneservice{
+    display: flex;
+    flex-direction: row;
+    
+}
+.service{
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: center;
+    padding: 0 20px;
+    border: 2px solid rgb(233, 158, 18);
+    margin: 0 15px;
+}
+
+
+
+footer{
+    background-color: rgba(253, 253, 253, 0.767);
+    height: 60px;
+    text-align: center;
+    padding: 8px;
+    margin: 80px 0;
+}
+
+@media (min-width:645px) and (max-width:813px) {
+    .image-fleur{
+        display: flex;
+        align-items: center;    
+    }
+
+}
+
